@@ -1,0 +1,16 @@
+@mixin reset-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+@mixin reset-link {
+	text-decoration: none;
+	color: black;
+}
+
+@mixin create-box($width, $height, $color) {
+	width: $width;
+	height: $height;
+	background-color: $color;
+}
